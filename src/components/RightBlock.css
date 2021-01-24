@@ -1,0 +1,41 @@
+.right-panel {
+    flex: 3;
+    margin-left: .25rem;
+  }
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-wrap {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    z-index: 300;
+    margin: 1rem ;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    
+    } 
+  
+  
+  .product-image {
+    position: absolute;
+    top: 0;
+    z-index: -10;
+    
+  }
+  .color-film{
+      position: absolute;
+      border-radius: 10px;
+      z-index: -5;
+      width: 100px;
+      height: 100px;
+      background: rgba(54, 37, 209, .5);
+  }
+  
+  .product-price, .product-category{
+    display: none;
+  }

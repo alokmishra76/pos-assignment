@@ -1,0 +1,42 @@
+.product-row {
+    display: flex;
+    background: #fff;
+    margin: .25rem 0;
+    padding: .5rem;
+}
+
+.item-name{
+    flex: 2;
+}
+.item-price, .item-pm, .item-tot{
+    flex: 1;
+}
+.close-btn{
+    background: red;
+    padding: 0 .4em;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 1rem;
+
+}
+.quantity-count {
+    display: inline-block;
+    width: 1.5rem;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.pm-btn{
+    background: #8d8d8d;
+    color: #fff;
+    padding: 0 .5rem;
+    border-radius: 5px;
+    margin: .25rem;
+    cursor: pointer;
+}
