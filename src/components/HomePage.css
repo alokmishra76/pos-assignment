@@ -1,0 +1,72 @@
+body {
+    font-family: "Open Sans", sans-serif;
+  }
+  .home-screen {
+    display: flex;
+  }
+  .panel {
+    background: #ecf0f1;
+    padding: 1rem;
+    
+  }
+  .modal-home {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+  }
+  .show-modal{
+    display: block;
+  }
+  .modal-receipt {
+    margin: 1rem auto;
+    width: 30%;
+    font-weight: bold;
+  }
+  .receipt-head {
+    background: #34495e;
+    padding: 1rem;
+    color: #fff;
+  }
+  .receipt-body {
+    background: #fff;
+  }
+  .receipt-data{
+    padding: 1rem 2rem;
+  }
+  .sale-no {
+    text-align: center;
+    padding: 1rem;
+  }
+  .date-col {
+    padding: 0 1rem;
+  }
+  .data-1{
+    max-height: 200px;
+    overflow-y: scroll;
+  }
+  .data-th-1 ,.data-tr-1, .tr-2 {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    border-bottom: 1px solid #8d8d8d;
+  }
+  .tr-3{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    
+  }
+  .receipt-data{
+    border-bottom: 1px solid #8d8d8d;
+  }
+  .close-modal{
+    margin: 1rem 5%;
+    width: 90%;
+    padding: 1rem;
+    cursor: pointer;
+  }
