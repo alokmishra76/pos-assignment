@@ -13,7 +13,7 @@ export default class RightBlock extends Component {
                         Products.map((product) => (
                             <div className="product-wrap" onClick={() => this.props.addItem(product)} key={product.name}>
                                 <div className="product-image">
-                                    {product.image ? <img src={require(`../asset/images/${product.image}`)} /> : ''}
+                                    {product.image ? <img src={require(`.assets/images/${product.image}`)} /> : ''}
                                 </div>
                                 <div className={`color-film bg-${Math.floor(Math.random() * 5)}`}></div>
                                 <div className="product-name">{product.name}</div>
